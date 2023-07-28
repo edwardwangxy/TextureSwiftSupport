@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "TextureSwiftSupport", targets: ["TextureSwiftSupport"]),
   ],
   dependencies: [
-    .package(url: "https://gitlab.com/fat-llc/Texture", exact: "3.1.1"),
+    .package(url: "https://gitlab.com/fat-llc/Texture", from: "3.1.1"),
     .package(url: "https://github.com/FluidGroup/Descriptors", from: "0.2.3"),
   ],
   targets: [
